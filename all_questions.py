@@ -241,7 +241,7 @@ def question6():
     # run each datum through the tree. Count the number of errors and divide by number of samples. .
     # Since we have areas: calculate the area that is misclassified (total area is unity)
     # float between 0 and 1
-    answer["b, expected error"] = 0.
+    answer["b, expected error"] = 0.06
 
     # Use u.BinaryTree to define the tree. Create your tree.
     # Replace "root node" by the proper node of the form "z <= float"
