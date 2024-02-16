@@ -236,7 +236,7 @@ def question6():
     answer["a, level 2, right"] ="A"
     answer["a, level 2, left"] = "y<=0.4"
     answer["a, level 3, left"] = "A"
-    answer["a, level 3, right"] = "x<=0.2"
+    answer["a, level 3, right"] = "B"
 
     # run each datum through the tree. Count the number of errors and divide by number of samples. .
     # Since we have areas: calculate the area that is misclassified (total area is unity)
@@ -248,7 +248,7 @@ def question6():
     tree = u.BinaryTree("x<=0.5")
     A=tree.insert_left("y<=0.4")
     C=A.insert_left('A')
-    A.insert_right('x<=0.2')
+    A.insert_right('B')
 
     B=tree.insert_right("A")
     answer["c, tree"] = tree
