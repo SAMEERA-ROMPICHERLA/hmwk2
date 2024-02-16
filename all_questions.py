@@ -212,13 +212,13 @@ def question5():
 
     # string: one of 'Model 1' or 'Model 2'
     explain["b"] = "Model 2"
-    explain["b explain"] = "Though accuracy drops slightly Model 2 is still preferable due to better generalization observed earlier and it is less likely to overfit."
+    explain["b explain"] = "Despite a slight decrease in accuracy, Model 2 remains preferable due to its previously observed better generalization, suggesting lower susceptibility to overfitting."
 
     explain["c similarity"] = "Regularization"
-    explain["c similarity explain"] = "Both techniques aims to reduce overfitting by penalizing models for complexity."
+    explain["c similarity explain"] = "Both techniques aim to mitigate overfitting by penalizing models for their complexity."
 
     explain["c difference"] = "Specificity"
-    explain["c difference explain"] = "MDL aims for a model that requires fewer bits to describe,whereas pessimistic error aims to adjust tree error to avoid complex decision tree."
+    explain["c difference explain"] = "MDL strives for a model with a concise description, while pessimistic error adjusts the tree's errors to prevent the creation of overly complex decision trees."
 
     return explain
 
